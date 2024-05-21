@@ -1,0 +1,26 @@
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.navbarStyle {
+  display: flex;
+  justify-content: space-between;
+  font-family: Raleway, sans-serif;
+}
+.navbarStyle a {
+  justify-content: space-between;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navbarStyle a:hover {
+  cursor: pointer;
+  color: #ef6445;
+}
+
+.navbarStyle .home {
+  color: #ef6445;
+}

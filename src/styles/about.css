@@ -1,0 +1,102 @@
+.aboutStyle p {
+  margin-top: 2%;
+  color: rgb(170, 170, 170);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.line {
+  display: inline-block;
+  border-top: 1px solid red;
+  margin-left: 10px;
+  width: 120px;
+}
+
+.aboutStyle h1 {
+  margin-top: -12px;
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(15, 47, 87);
+  line-height: 54px;
+}
+.aboutUsDetails {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+  color: rgb(68, 68, 68);
+}
+
+.aboutUsDetails > div {
+  flex: 1;
+}
+.aboutUsDetails > div:first-child {
+  padding-right: 2%;
+}
+.aboutUsDetails ul {
+  list-style-type: none;
+  margin-left: -5%;
+  line-height: 36px;
+  padding-top: 2%;
+}
+
+.aboutUsDetails button {
+  margin-top: 4%;
+}
+
+.checkmarkStyle {
+  color: #ef6445;
+}
+
+.cardsStyle {
+  display: flex;
+  padding-top: 3%;
+  flex: 1;
+  font-family: "Open Sans", sans-serif;
+  height: 230px;
+}
+
+.eachCardStyle {
+  justify-content: space-between;
+  border-spacing: 200 1200px;
+  border-collapse: separate;
+  text-wrap: wrap;
+  gap: 40px;
+  line-height: 30px;
+  border: 1ps solid white;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+}
+
+.cardtitleStyle {
+  padding: 15px;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(11, 35, 65);
+}
+
+.iconStyle {
+  color: red;
+  margin-right: 25px;
+}
+
+.cardTextStyle {
+  padding-left: 15px;
+  padding-right: 40px;
+  color: rgb(68, 68, 68);
+}
+
+.textSpan {
+  color: rgb(11, 35, 65);
+  font-style: bold;
+  font-weight: 700;
+}
+.findOutStyle {
+  padding-left: 15px;
+  color: #164682;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.findOutStyle:hover {
+  color: #2169c4;
+}
